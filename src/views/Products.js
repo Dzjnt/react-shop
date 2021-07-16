@@ -1,6 +1,6 @@
 import React from "react";
 import Filters from "../componets/filters/Filters";
-import ProductsList from "../componets/ProductsList";
+import ProductsList from "../componets/products/ProductsList";
 
 const Products = () => {
   return (
