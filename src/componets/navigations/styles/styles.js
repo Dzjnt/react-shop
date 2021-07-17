@@ -6,6 +6,7 @@ export default makeStyles((theme) => ({
   appBar: {
     boxShadow: "none",
     borderBottom: "1px solid rgba(0, 0, 0, 0.12)",
+    background: "linear-gradient(to right,  #1d976c, #93f9b9)",
     [theme.breakpoints.up("sm")]: {
       width: `calc(100% - ${drawerWidth}px)`,
       marginLeft: drawerWidth,
