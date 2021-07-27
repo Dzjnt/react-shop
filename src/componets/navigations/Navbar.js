@@ -50,6 +50,7 @@ const Navbar = () => {
               <IconButton
                 component={Link}
                 to="/cart"
+                onClick={context.handleCartOpen}
                 aria-label="Show cart items"
                 color="inherit"
               >
