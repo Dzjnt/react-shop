@@ -2,8 +2,8 @@ import React from "react";
 
 import { ThemeProvider } from "@material-ui/core/styles";
 
-import Cart from "../componets/Cart";
-import Navbar from "../componets/navigations/Navbar";
+import Cart from "../components/Cart";
+import Navbar from "../components/navigations/Navbar";
 import { materialTheme } from "../themes/materialTheme";
 
 const MainTemplate = ({ children }) => {

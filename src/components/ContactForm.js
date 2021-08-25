@@ -4,7 +4,7 @@ import { Formik, Form, ErrorMessage } from "formik";
 import TextField from "@material-ui/core/TextField";
 import { green } from "@material-ui/core/colors";
 import { Button, Checkbox } from "@material-ui/core";
-import { contactFormSchema } from "../helpers/validationShema";
+import { contactFormSchema } from "../helpers/validationSchema";
 
 const useStyles = makeStyles((theme) => ({
   margin: {
